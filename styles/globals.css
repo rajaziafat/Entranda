@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply font-Poppins;
+  }
+
+  html {
+    @apply -text-black;
+  }
+}
+
+@layer components {
+  .container {
+    @apply w-[90%] lg:w-[86%] mx-auto max-w-[1600px];
+  }
+
+  .text-underline {
+    @apply relative w-fit leading-[1] z-[1];
+  }
+
+  .mb-100px {
+    @apply mb-[60px] sm:mb-[80px] lg:mb-[100px];
+  }
+  .mb-150px {
+    @apply mb-[80px] sm:mb-[100px] md:mb-[120px] lg:mb-[150px];
+  }
+  .mb-200px {
+    @apply mb-[200px];
+  }
+
+  /* PAGES COMPONENTS */
+
+  .text-underline::before {
+    @apply content-[""] absolute bottom-[.2em] left-0 w-full h-[.3em] bg-[#FFC769] z-[-1];
+  }
+
+  .hero-selector-cards {
+    --spacing: 40px;
+
+    @apply py-5 px-8 sm:px-8 xl:py-8 xl:px-14 gap-[1.6rem] lg:gap-[var(--spacing)] bg-white rounded-[1rem] grid grid-cols-[1fr] md:grid-cols-[1fr_1fr_.5fr_.3fr] lg:grid-cols-[1fr_.8fr_.4fr_.3fr] shadow-[0_35px_70px_-15px_rgba(0,0,0,0.2)];
+  }
+
+  .hero-selector-cards > :nth-child(1),
+  .hero-selector-cards > :nth-child(2) {
+    @apply md:pr-[1.6rem] lg:pr-[var(--spacing)] relative;
+  }
+
+  .hero-selector-cards > :nth-child(1)::before,
+  .hero-selector-cards > :nth-child(2)::before {
+    @apply md:content-[""] absolute w-[1px] right-0 top-[50%] translate-y-[-50%] h-full bg-[#707070] opacity-[.4];
+  }
+
+  .destination-grid {
+    @apply grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 auto-rows-[10rem] sm:grid-rows-[26vw_26vw] md:grid-rows-[19vw_19vw] gap-4 lg:gap-8;
+  }
+  .destination-grid > :nth-child(2) {
+    @apply md:col-start-1 md:col-end-2 md:row-start-2 md:row-end-3;
+  }
+  .destination-grid > :nth-child(3) {
+    @apply md:col-start-2 md:col-end-3 md:row-start-1 md:row-end-3 border-2;
+  }
+  .destination-grid > :nth-child(4) {
+    @apply md:col-start-3 md:col-end-[-1] md:row-start-1 md:row-end-2;
+  }
+
+  .black-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: all 0.4s ease;
+    opacity: 0;
+    pointer-events: none;
+  }
+  .black-screen.show {
+    opacity: 1;
+    pointer-events: visible;
+  }
+
+  .checkbox-input::before {
+    content: "\2713";
+    font-size: 12px;
+    color: white;
+  }
+
+  .checkbox-input:checked {
+    @apply -bg-green border-2 -border-green;
+  }
+
+  /* TravelingOptions ==== */
+
+  .TravelingOptions .cards {
+    @apply border-b-[1px] -border-gray pb-6 mb-6;
+  }
+
+  .TravelingOptions .cards .card-title {
+    @apply -text-gray text-base xl:text-lg font-bold mb-5;
+  }
+
+  /* PlaceDetails ===== */
+
+  .PlaceDetails .activity-title {
+    @apply text-lg sm:text-xl xl:text-2xl font-bold -text-blue mb-4;
+  }
+
+  .PlaceDetails .activity-text {
+    @apply text-xs sm:text-sm lg:text-base font-normal leading-[1.7] -text-blue;
+  }
+
+  .PlaceDetails .activity-divider {
+    @apply pb-8 mb-8 sm:pb-10 sm:mb-10 xl:pb-12 xl:mb-12 border-b-[1px] -border-blue;
+  }
+}
+
+.swiper-slide {
+  overflow: visible;
+  padding-bottom: 0.5rem;
+}
+
+/* .co{
+  color: rgb(0, 97, 92);
+} */

@@ -1,0 +1,19 @@
+<svg id="calendar" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_87942" data-name="Group 87942">
+    <path id="Path_122745" data-name="Path 122745" d="M20.727,0H3.273A3.277,3.277,0,0,0,0,3.273V20.727A3.277,3.277,0,0,0,3.273,24H20.727A3.278,3.278,0,0,0,24,20.727V3.273A3.277,3.277,0,0,0,20.727,0Zm2.182,20.727a2.189,2.189,0,0,1-2.182,2.182H3.273a2.189,2.189,0,0,1-2.182-2.182V3.273A2.189,2.189,0,0,1,3.273,1.091H20.727a2.189,2.189,0,0,1,2.182,2.182Z"/>
+    <circle id="Ellipse_156" data-name="Ellipse 156" cx="1.042" cy="1.042" r="1.042" transform="translate(5.741 2.864)"/>
+    <circle id="Ellipse_157" data-name="Ellipse 157" cx="1.042" cy="1.042" r="1.042" transform="translate(10.958 2.864)"/>
+    <circle id="Ellipse_158" data-name="Ellipse 158" cx="1.042" cy="1.042" r="1.042" transform="translate(16.176 2.864)"/>
+    <rect id="Rectangle_5099" data-name="Rectangle 5099" width="3.76" height="3.345" transform="translate(7.934 9.217)"/>
+    <rect id="Rectangle_5100" data-name="Rectangle 5100" width="3.76" height="3.345" transform="translate(12.307 9.217)"/>
+    <rect id="Rectangle_5101" data-name="Rectangle 5101" width="3.76" height="3.345" transform="translate(16.677 9.217)"/>
+    <rect id="Rectangle_5102" data-name="Rectangle 5102" width="3.76" height="3.343" transform="translate(3.563 13.116)"/>
+    <rect id="Rectangle_5103" data-name="Rectangle 5103" width="3.76" height="3.343" transform="translate(7.934 13.116)"/>
+    <rect id="Rectangle_5104" data-name="Rectangle 5104" width="3.76" height="3.343" transform="translate(12.307 13.116)"/>
+    <rect id="Rectangle_5105" data-name="Rectangle 5105" width="3.76" height="3.343" transform="translate(16.677 13.116)"/>
+    <rect id="Rectangle_5106" data-name="Rectangle 5106" width="3.76" height="3.343" transform="translate(3.563 17.015)"/>
+    <rect id="Rectangle_5107" data-name="Rectangle 5107" width="3.76" height="3.343" transform="translate(7.934 17.015)"/>
+    <rect id="Rectangle_5108" data-name="Rectangle 5108" width="3.76" height="3.343" transform="translate(12.307 17.015)"/>
+    <rect id="Rectangle_5109" data-name="Rectangle 5109" width="3.76" height="3.343" transform="translate(16.677 17.015)"/>
+  </g>
+</svg>
